@@ -307,15 +307,16 @@ gsap.to(".bottom8Parts h4",{
 
 
 locomotiveAnimation();
-// navAnimation();
-// page2Animation();
-// page3Animation();
-// page6Animation();
-// page7Animation();
-// page8Animation();
+navAnimation();
+page2Animation();
+page3Animation();
+page6Animation();
+page7Animation();
+page8Animation();
 
 
-
+function loadingAnimation(){
+    
 let page1TL = gsap.timeline();
 
 page1TL.from("#page1",{
@@ -353,3 +354,6 @@ page1TL.from("#page1 div",{
     stagger:0.2,
 
 })
+}
+
+loadingAnimation();
