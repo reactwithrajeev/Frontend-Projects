@@ -20,7 +20,20 @@ html,body{
     height: 100%;
     color: var(--text-color);
 }
+#MenuBarIcon{
+    font-size: 1.5vw;
+    padding: 10px;
+    background-color: var(--text-color);
+    color: var(--main-bg-clr);
+    border-radius: 10px;
+    transition: all 0.5s ease;
+    display: none;
+}
 
+#MenuBarIcon:hover{
+    cursor: pointer;
+    transform: scale(0.9);
+}
 nav{
     position: fixed;
     background-color: var(--main-bg-clr);
@@ -165,6 +178,7 @@ nav:hover #nav-bottom .bottom-div h5 span:hover{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    position: relative;
 }
 
 #page1 h1{

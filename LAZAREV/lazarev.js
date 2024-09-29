@@ -294,7 +294,7 @@ gsap.to(".bottom8Parts h4",{
         },
         scrollTrigger:{
             trigger:(".bottom8Parts"),
-            scroller:"main",
+            scroller:"body",
             // markers:true,
             top:"top 70%",
             end:"top -90%",
