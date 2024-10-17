@@ -24,7 +24,7 @@ ul{
 body {
     width: 100vw;
     height: 110vh;
-    padding: 15px;
+    padding: 15px 5px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -48,7 +48,7 @@ body {
     align-items: center;
     justify-content: flex-start;
     flex-direction: column;
-    padding: 15px 25px;
+    padding: 15px 5px;
 }
 
 .cardHeader{
@@ -84,14 +84,17 @@ body {
 }
 
 .about{
-    padding: 10px 20px;
+    width: 100%;
+    padding:15px 10px;
     background-color: #2ea44f;
     color: #ffffff;
     font-weight: 600;
-    font-size: 1.2em;
+    font-size: 0.9em;
     border-radius: 10px;
-    filter :drop-shadow(2px 2px 20px #000)
+    filter :drop-shadow(2px 2px 20px #000);
+    text-align: center;
     /* box-shadow: ; */
+
 }
 
 .bio{
