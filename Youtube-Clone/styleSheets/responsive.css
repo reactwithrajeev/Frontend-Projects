@@ -1,0 +1,457 @@
+@media (max-width: 480px){
+    nav{
+        padding: 7px 5px;
+    }
+    
+    .nav-left{
+        width: 30%;
+        gap: 5px;
+    }
+    .nav-left svg{
+        width: 53px;
+        height: 35px;
+    
+    }
+    .nav-left svg:nth-child(1){
+        width: 20px;
+    }
+    
+    .nav-right{
+        width: 20%;
+        gap: 5px;
+    }
+    
+    .nav-right svg{
+        width: 15px;
+    }
+    
+    .nav-right button{
+        width: 20px;
+        height: 20px;
+    }
+    
+    .nav-right button img{
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+    }
+    
+    .nav-middle{
+        width: 49%;
+        
+    }
+    .searchBox{
+        width: 95%;
+        
+    }
+    .searchBox .videoSearch{
+        width: 95%;
+        padding: 5px 5px;
+    
+    }
+    .searchBox .videoSearch::placeholder{
+        color: #bcbdb4;
+        font-size: 0.8em;
+    }
+    
+    .searchBox .icon{
+        padding: 2px 5px;
+    
+    }
+    
+    .searchBox .icon svg{
+        width: 10px;
+    }
+    
+    .nav-middle .search-icon{
+        padding: 2px;
+    }
+    
+    .nav-middle .search-icon svg{
+        width: 10px;
+        
+    }
+    .sidebar{
+        width: 13%;
+        padding: 12px 0px;
+        overflow-x: hidden;
+    
+    }
+    .sidebar span{
+        display: none;
+    }
+    /* Style the scrollbar */
+    .sidebar::-webkit-scrollbar {
+        width: 6px; /* Width of the scrollbar */
+        height: 7px; /* Height of the scrollbar (for horizontal bars) */
+    }
+    
+    
+    .sidebar-firstBox{
+        padding: 15px 0;
+    }
+    .sidebar-firstBox ul li{
+        justify-content: center;
+    }
+    
+    .sidebar-firstBox ul li:hover{
+        border-radius: 50%;
+    }
+    .sidebar-firstBox ul li .icon svg{
+        width: 45px;
+    
+    }
+    
+    .sidebar-secondBox{
+        padding: 15px 0;
+    }
+
+    #extraLink{
+        display: none;
+    }
+    .sidebar-secondBox ul li{
+        justify-content: center;
+    }
+    
+    .sidebar-secondBox ul li:hover{
+        border-radius: 50%;
+    }
+    .sidebar-third-box{
+        padding: 15px 0;
+    }
+    
+    .sidebar-third-box ul li{
+        justify-content: center;
+    }
+    
+    .sidebar-third-box ul li:hover{
+        border-radius: 50%;
+    }
+    .sidebar-third-box ul li .icon svg{
+        width: 35px;
+    
+    }
+    
+    .sidebar-fourthBox{
+        padding: 15px 0;
+    }
+    
+    .sidebar-fourthBox ul li{
+        justify-content: center;
+    }
+    
+    .sidebar-fourthBox ul li:hover{
+        border-radius: 50%;
+    }
+    .sidebar-fourthBox ul li .icon svg{
+        width: 30px;
+    
+    }
+    
+    
+    .sidebar-bottom-box{
+        padding: 15px 0;
+    }
+    
+    .sidebar-bottom-box ul li{
+        justify-content: center;
+    }
+    
+    .sidebar-bottom-box ul li:hover{
+        border-radius: 50%;
+    }
+    .sidebar-bottom-box ul li .icon svg{
+        width: 35px;
+    
+    }
+    
+    .content-container{
+        width: 87%;
+        margin-left: 13%;
+        padding: 15px 5px;
+        overflow-x: hidden;
+    }
+    .content-card{
+        width: 421px;
+        height: 320px;
+        cursor: pointer;
+        /* border-radius: 10px; */
+    }
+    
+    .thumbnail{
+        width: 100%;
+        height: 200px;
+        border-radius: 15px;
+        overflow: hidden;
+    
+    }
+    
+    
+    .card-footer{
+        gap: 8px;
+    
+    }
+    
+    .channel-icon{
+        padding-top: 15px;
+        width: 12%;
+    
+    }
+    
+    .channel-icon img{
+        width: 90%;
+    }
+    
+    .video-details{
+        width: 82%;
+    }
+    
+    .video-title h1{
+        font-size: 0.85em;
+    }
+    
+    .channel-name{
+        font-size: 0.9em;
+        margin-top: 6px;
+    }
+    
+    
+    .threedots-icon svg{
+        height: 40px;
+        width: 25px;
+    }
+}
+
+
+@media only screen and (min-width:481px) and (max-width: 1024px){
+
+    nav{
+        padding: 7px 5px;
+    }
+    
+    .nav-left{
+        width: 30%;
+        gap: 5px;
+    }
+    .nav-left svg{
+        width: 53px;
+        height: 35px;
+    
+    }
+    .nav-left svg:nth-child(1){
+        width: 20px;
+    }
+    
+    .nav-right{
+        width: 20%;
+        gap: 5px;
+    }
+    
+    .nav-right svg{
+        width: 15px;
+    }
+    
+    .nav-right button{
+        width: 20px;
+        height: 20px;
+    }
+    
+    .nav-right button img{
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+    }
+    
+    .nav-middle{
+        width: 49%;
+        
+    }
+    .searchBox{
+        width: 95%;
+        
+    }
+    .searchBox .videoSearch{
+        width: 95%;
+        padding: 5px 5px;
+    
+    }
+    .searchBox .videoSearch::placeholder{
+        color: #bcbdb4;
+        font-size: 0.8em;
+    }
+    
+    .searchBox .icon{
+        padding: 2px 5px;
+    
+    }
+    
+    .searchBox .icon svg{
+        width: 10px;
+    }
+    
+    .nav-middle .search-icon{
+        padding: 2px;
+    }
+    
+    .nav-middle .search-icon svg{
+        width: 10px;
+        
+    }
+
+
+    .sidebar{
+        width: 13%;
+        padding: 12px 0px;
+        overflow-x: hidden;
+    
+    }
+    .sidebar span{
+        display: none;
+    }
+    /* Style the scrollbar */
+    .sidebar::-webkit-scrollbar {
+        width: 6px; /* Width of the scrollbar */
+        height: 7px; /* Height of the scrollbar (for horizontal bars) */
+    }
+    
+    
+    .sidebar-firstBox{
+        padding: 15px 0;
+    }
+    .sidebar-firstBox ul li{
+        justify-content: center;
+    }
+    
+    .sidebar-firstBox ul li:hover{
+        border-radius: 50%;
+    }
+    .sidebar-firstBox ul li .icon svg{
+        width: 45px;
+    
+    }
+    
+    .sidebar-secondBox{
+        padding: 15px 0;
+    }
+
+    #extraLink{
+        display: none;
+    }
+    .sidebar-secondBox ul li{
+        justify-content: center;
+    }
+    
+    .sidebar-secondBox ul li:hover{
+        border-radius: 50%;
+    }
+    .sidebar-third-box{
+        padding: 15px 0;
+    }
+    
+    .sidebar-third-box ul li{
+        justify-content: center;
+    }
+    
+    .sidebar-third-box ul li:hover{
+        border-radius: 50%;
+    }
+    .sidebar-third-box ul li .icon svg{
+        width: 35px;
+    
+    }
+    
+    .sidebar-fourthBox{
+        padding: 15px 0;
+    }
+    
+    .sidebar-fourthBox ul li{
+        justify-content: center;
+    }
+    
+    .sidebar-fourthBox ul li:hover{
+        border-radius: 50%;
+    }
+    .sidebar-fourthBox ul li .icon svg{
+        width: 30px;
+    
+    }
+    
+    
+    .sidebar-bottom-box{
+        padding: 15px 0;
+    }
+    
+    .sidebar-bottom-box ul li{
+        justify-content: center;
+    }
+    
+    .sidebar-bottom-box ul li:hover{
+        border-radius: 50%;
+    }
+    .sidebar-bottom-box ul li .icon svg{
+        width: 35px;
+    
+    }
+    
+    .content-container{
+        width: 87%;
+        margin-left: 13%;
+        padding: 15px 5px;
+        overflow-x: hidden;
+        align-items: center;
+        justify-content: center;
+    }
+    .content-card{
+        width: 188px;
+        height: 320px;
+        cursor: pointer;
+        /* border-radius: 10px; */
+    }
+    
+    .thumbnail{
+        width: 100%;
+        height: 200px;
+        border-radius: 15px;
+        overflow: hidden;
+    
+    }
+    
+    
+    .card-footer{
+        gap: 8px;
+    
+    }
+    
+    .channel-icon{
+        padding-top: 15px;
+        width: 15%;
+    
+    }
+    
+    .channel-icon img{
+        width: 90%;
+    }
+    
+    .video-details{
+        width: 82%;
+    }
+    
+    .video-title h1{
+        font-size: 0.7em;
+    }
+    
+    .channel-name{
+        font-size: 0.8em;
+        margin-top: 6px;
+    }
+    .vewsCount-time{
+        font-size: 0.65em;
+        gap: 5px;
+    }
+    
+    
+    .threedots-icon svg{
+        height: 40px;
+        width: 25px;
+    }
+}
