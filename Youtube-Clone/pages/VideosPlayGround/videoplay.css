@@ -1,0 +1,231 @@
+:root{
+    --main-bg-clr:#111111;
+    --yellow-clr:#ffbe01;
+
+    --main-text-clr:#fff5f5;
+    --secondary-txt-clr:#000;
+}
+
+#videoplay-Container{
+    width: 100%;
+    /* height: 100vh; */
+    background-color: var(--main-bg-clr);
+    padding: 25px 100px;
+}
+
+.content-box{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.videoSection{
+    width: 68%;
+    height: 100%;
+    padding-top: 25px;
+}
+
+.playing-video-detail{
+    width: 100%;
+    height: 560px;
+}
+
+.videoBox{
+    width: 100%;
+    height: 447px;
+    border-radius: 10px;
+}
+.videoBox video{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+
+}
+
+.video-play-title{
+    color: var(--main-text-clr);
+    font-weight: 700;
+    font-size: 1.3em;
+    margin: 10px 0;
+}
+
+.video-channel-details{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.video-channel-section{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+}
+
+.video-channel-icon{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.video-channel-icon img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.video-channel-name p{
+    color: var(--main-text-clr);
+    font-weight: 600;
+    font-size: 0.9em;
+    padding: 1px 0;
+}
+
+.video-channel-name p:nth-child(2){
+    color: #717070;
+    font-weight: 500;
+    font-size: 0.8em;
+}
+
+.subscribe-btn{
+    padding: 12px 20px;
+    border-radius: 95px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.6s ease;
+}
+.video-detail-section{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+
+}
+
+.video-detail-section  svg{
+    height: 27px;
+}
+.video-detail-section button{
+    width: 32%;
+    padding: 5px 15px;
+    border: none;
+    outline: none;
+    background-color: #222222;
+    border-radius: 95px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    color: var(--main-text-clr);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.likeAndDislikeBtn{
+    border-radius: 95px;
+    display: flex;
+    align-items: center;
+    padding: 5px 15px;
+    justify-content: center;
+    width: 10%;
+    width: 32%;
+    gap: 5px;
+}
+
+.likebtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding: 0 10px;
+    border-right: 1px solid grey;
+    color: var(--main-text-clr);
+    font-weight: 600;
+
+}
+
+
+.three-dots-btn{
+    background-color: #222222;
+    border-radius: 50%;
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.suggestions-section{
+    width: 31%;
+    height: 100%;
+    display: flex;
+    padding: 10px 0;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.suggestion-video-card{
+    width: 400px;
+    height: 98px;
+    display: flex;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+.suggestion-video-card .video-card-left{
+    width: 168px;
+    height: 100%;
+    position: relative;
+
+}
+.video-thumbnail img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 8px;
+}
+
+.video-time{
+    position: absolute;
+    bottom: 5px;
+    right: 8px;
+    font-size: 0.8em;
+    font-weight: 500;
+}
+
+.suggested-video-detail{
+    width: 222px;
+}
+
+.suggested-video-title{
+    font-size: 0.8em;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;    /* Limit to 2 lines */
+    overflow: hidden;         /* Hides overflowing text */
+    text-overflow: ellipsis;  /* Adds '...' for overflowed text */
+    line-height: 1.5em;       /* Adjust line height as needed */
+    max-height: 3em; 
+    color: var(--main-text-clr);
+    text-transform: capitalize;
+}
+
+.suggested-channel-name , .suggested-views-time{
+    color: #969494;
+    font-weight: 600;
+    font-size: 0.7em;
+    display: flex;
+    gap: 10px;
+}
